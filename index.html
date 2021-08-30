@@ -2584,57 +2584,14 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 <style>
+  @media screen and (max-width: 481px){
   body {
     background-color: black;
     color: white;
     font-family: 'Poppins';
     text-align: center;
   }
-    
-  h1 {
-    color: white
-  }
 
-  .runner-container {
-    border-radius: 12px;
-    border: 2px dashed white;
-  }
-
-  .titolo:hover {
-    color: #ff0000;
-    text-shadow: 0 0 10px #ff0000,
-      0 0 20px #ff0000,
-      0 0 40px #ff0000;
-  }
-
-  .github:hover p {
-    color: #90EE90;
-    text-shadow: 0 0 10px #90EE90,
-      0 0 20px #90EE90,
-      0 0 40px #90EE90;
-  }
-
-  .instagram:hover p {
-    color: #C13584;
-    text-shadow: 0 0 10px #C13584,
-      0 0 20px #C13584,
-      0 0 40px #C13584;
-  }
-
-  .telegram:hover p {
-    color: #0088cc;
-    text-shadow: 0 0 10px #0088cc,
-      0 0 20px #0088cc,
-      0 0 40px #0088cc;
-  }
-  @media screen and (max-width: 480px){
-  body {
-    background-color: black;
-    color: white;
-    font-family: 'Poppins';
-    text-align: center;
-  }
-    
   h1 {
     color: white
   }
@@ -2675,8 +2632,6 @@
 </style>
 
 <body id="t" onload="startTime()">
-  <div id="particles-js"></div>
-  <script src="particles.js"></script>
   <span style="float: left;" id="ora"></span>
   <span style="float: right;" id="data"></span>
   <br>
@@ -2693,6 +2648,7 @@
       <p><b>Redirect: </b> <a href="http://t.me/leoatomicredirect" style="color: #0088cc;">Telegram </a><a href="https://t.me/Leoatomic" class="fa fa-telegram" style="color: #0088cc;"></a></p>
     </li>
   </ul>
+
   <script>
     n = new Date();
     anno = n.getFullYear();
