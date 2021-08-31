@@ -37,7 +37,7 @@ particlesJS('particles-js',
       }
     },
     "size": {
-      "value": 3,
+      "value": 2,
       "random": true,
       "anim": {
         "enable": false,
@@ -55,7 +55,7 @@ particlesJS('particles-js',
     },
     "move": {
       "enable": true,
-      "speed": 1,
+      "speed": 1.5,
       "direction": "none",
       "random": true,
       "straight": false,
@@ -96,7 +96,7 @@ particlesJS('particles-js',
         "speed": 3
       },
       "repulse": {
-        "distance": 300,
+        "distance": 200,
         "duration": 0.4
       },
       "push": {
