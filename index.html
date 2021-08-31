@@ -2630,9 +2630,13 @@
       0 0 40px #0088cc;
   }
 
-canvas {
+  #particles-js canvas {
   display: block;
-  vertical-align: bottom;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -10;
 }
 
   @media screen and (max-width: 480px){
@@ -2641,11 +2645,15 @@ canvas {
     color: white;
     font-family: 'Poppins';
     text-align: center;
-  
   }
-canvas {
+
+  #particles-js canvas {
   display: block;
-  vertical-align: bottom;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -10;
 }
 
   h1 {
