@@ -89,14 +89,14 @@ particlesJS('particles-js',
         }
       },
       "bubble": {
-        "distance": 150,
+        "distance": 250,
         "size": 0,
         "duration": 2,
         "opacity": 0,
         "speed": 3
       },
       "repulse": {
-        "distance": 100,
+        "distance": 400,
         "duration": 0.4
       },
       "push": {
