@@ -60,20 +60,29 @@
   }
 
   .text {
-    background: linear-gradient(to right, #9400D3, #4B0082, #0000FF, #00FF00, #FFFF00, #FF7F00, #FF0000);
+    background: linear-gradient(to right, #0000FF, #00FF00, #FF0000);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    animation: text 7s linear infinite;
+    animation: text 6s linear infinite;
+  }
+
+  .text:hover {
+    text-shadow: 0 0 10px #ffffff,
+      0 0 20px #ffffff,
+      0 0 40px #ffffff;
   }
 
   @keyframes text {
 
-    100% {
-      background-position: 0 0;
+    from {
+      -webkit-filter: hue-rotate(0deg);
     }
 
- 
+    to {
+      -webkit-filter: hue-rotate(-360deg);
+      background-position: 100% 0;
+    }
   }
 
   @media screen and (max-width: 480px) {
@@ -122,20 +131,29 @@
     }
 
     .text {
-      background: linear-gradient(to right, #9400D3, #4B0082, #0000FF, #00FF00, #FFFF00, #FF7F00, #FF0000);
+      background: linear-gradient(to right, #0000FF, #00FF00, #FF0000);
       -webkit-background-clip: text;
       background-clip: text;
       color: transparent;
       animation: text 6s linear infinite;
     }
 
+    .text:hover {
+      text-shadow: 0 0 10px,
+        0 0 20px,
+        0 0 40px;
+    }
+
     @keyframes text {
 
-     
-      100% {
-        background-position: 0 0;
+      from {
+        -webkit-filter: hue-rotate(0deg);
       }
 
+      to {
+        -webkit-filter: hue-rotate(-360deg);
+        background-position: 100% 0;
+      }
     }
   }
 </style>
@@ -147,11 +165,13 @@
   <br>
   <h1 class="text">Pagina web di Leoatomic</h1>
   <br>
-  <div style="text-decoration: none;">
-    <p class="github"><b>Progetti: </b><a href="https://github.com/Leoatomic" style="color: #90EE90;">GitHub</a> <a href="https://github.com/Leoatomic" class="fa fa-github" style="color: #90EE90;"></a></p>
-    <p class="instagram"><b>Seguimi: </b><a href="https://www.instagram.com/Leoatomic" style="color: #C13584;">Instagram</a> <a href="https://www.instagram.com/Leoatomic" class="fa fa-instagram" style="color: #C13584;"></a></p>
-    <p class="telegram"><b>Redirect: </b><a href="http://t.me/leoatomicredirect" style="color: #0088cc;">Telegram</a> <a href="https://t.me/Leoatomic" class="fa fa-telegram" style="color: #0088cc;"></a></p>
-  </div>
+  <p class="github"><b>Progetti: </b><a href="https://github.com/Leoatomic" style="color: #90EE90;  text-decoration: none;">GitHub</a> <a href="https://github.com/Leoatomic" class="fa fa-github" style="color: #90EE90;  text-decoration: none;"></a>
+  </p>
+  <p class="instagram"><b>Seguimi: </b><a href="https://www.instagram.com/Leoatomic" style="color: #C13584;  text-decoration: none;">Instagram</a> <a href="https://www.instagram.com/Leoatomic" class="fa fa-instagram"
+      style="color: #C13584;  text-decoration: none;"></a>
+  </p>
+  <p class="telegram"><b>Redirect: </b><a href="http://t.me/leoatomicredirect" style="color: #0088cc;  text-decoration: none;">Telegram</a> <a href="https://t.me/Leoatomic" class="fa fa-telegram" style="color: #0088cc;  text-decoration: none;"></a>
+  </p>
   <br>
   <script>
     n = new Date();
@@ -182,7 +202,7 @@
   <script src="https://cdn.jsdelivr.net/npm/particles.js@2/particles.min.js"></script>
   <script src="app.js"></script>
 </body>
-<!--   .-  -.
+<!--     .-  -.
         /(    )\
         |  -^^-  |
         \_ `' _/
