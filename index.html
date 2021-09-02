@@ -2,7 +2,7 @@
 
 <head>
   <title>Leoatomic</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta property="description" content="Alcuni miei reindirizzamenti.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://leoatomic.me">
@@ -19,10 +19,6 @@
     color: white;
     font-family: 'Poppins';
     text-align: center;
-  }
-
-  h1 {
-    color: white
   }
 
 
@@ -55,98 +51,98 @@
   }
 
   #particles-js canvas {
-  display: block;
-  position: fixed;
-  top: 0;
-  left: 0;
-  overflow: hidden;
-  z-index: -10;
-}
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -10;
+  }
 
-   .h1_text_animated {
-    background: linear-gradient(to right, #9400D3, #4B0082 , #0000FF, #00FF00, #FFFF00, #FF7F00, #FF0000,);
+  .text {
+    background: linear-gradient(to right, #9400D3, #4B0082, #0000FF, #00FF00, #FFFF00, #FF7F00, #FF0000);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    animation: rainbow_animation 6s linear infinite;
-}
+    animation: text 7s linear infinite;
+  }
 
-@keyframes rainbow_animation {
-    0%,100% {
-        background-position: 0 0;
+  @keyframes text {
+
+    0%,
+    100% {
+      background-position: 0 0;
     }
 
     50% {
-        background-position: 100% 0;
+      background-position: 100% 0;
     }
-}
-  @media screen and (max-width: 480px){
-  body {
-    background-color: black;
-    color: white;
-    font-family: 'Poppins';
-    text-align: center;
   }
 
-  h1 {
-    color: white
-  }
+  @media screen and (max-width: 480px) {
+    body {
+      background-color: black;
+      color: white;
+      font-family: 'Poppins';
+      text-align: center;
+    }
 
+    .titolo:hover {
+      color: #ffffff;
+      text-shadow: 0 0 10px,
+        0 0 20px,
+        0 0 40px;
+    }
 
-  .titolo:hover {
-    color: #ffffff;
-    text-shadow: 0 0 10px,
-      0 0 20px,
-      0 0 40px;
-  }
+    .github:hover {
+      color: #90EE90;
+      text-shadow: 0 0 10px #90EE90,
+        0 0 20px #90EE90,
+        0 0 40px #90EE90;
+    }
 
-  .github:hover {
-    color: #90EE90;
-    text-shadow: 0 0 10px #90EE90,
-      0 0 20px #90EE90,
-      0 0 40px #90EE90;
-  }
+    .instagram:hover {
+      color: #C13584;
+      text-shadow: 0 0 10px #C13584,
+        0 0 20px #C13584,
+        0 0 40px #C13584;
+    }
 
-  .instagram:hover {
-    color: #C13584;
-    text-shadow: 0 0 10px #C13584,
-      0 0 20px #C13584,
-      0 0 40px #C13584;
-  }
+    .telegram:hover {
+      color: #0088cc;
+      text-shadow: 0 0 10px #0088cc,
+        0 0 20px #0088cc,
+        0 0 40px #0088cc;
+    }
 
-  .telegram:hover {
-    color: #0088cc;
-    text-shadow: 0 0 10px #0088cc,
-      0 0 20px #0088cc,
-      0 0 40px #0088cc;
-  }
+    #particles-js canvas {
+      display: block;
+      position: fixed;
+      top: 0;
+      left: 0;
+      overflow: hidden;
+      z-index: -10;
+    }
 
-  #particles-js canvas {
-  display: block;
-  position: fixed;
-  top: 0;
-  left: 0;
-  overflow: hidden;
-  z-index: -10;
-}
+    .text {
+      background: linear-gradient(to right, #9400D3, #4B0082, #0000FF, #00FF00, #FFFF00, #FF7F00, #FF0000);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      animation: text 6s linear infinite;
+    }
 
-   .h1_text_animated {
-    background: linear-gradient(to right, #9400D3, #4B0082 , #0000FF, #00FF00, #FFFF00, #FF7F00, #FF0000,);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    animation: rainbow_animation 6s linear infinite;
-}
+    @keyframes text {
 
-@keyframes rainbow_animation {
-    0%,100% {
+      0%,
+      100% {
         background-position: 0 0;
-    }
+      }
 
-    50% {
+      50% {
         background-position: 100% 0;
+      }
     }
-}
   }
 </style>
 
@@ -155,14 +151,12 @@
   <a href="https://Leoatomic.me/chupa"><span style="float: left;text-decoration: none; font-size: small; color: white;" id="ora"></span></a>
   <a href="https://Leoatomic.me/chupa"><span style="float: right;text-decoration: none; font-size: small; color: white;" id="data"></span></a>
   <br>
-  <h1 class="h1 rainbow_text_animated">Pagina web di Leoatomic</h1>
+  <h1 class="text">Pagina web di Leoatomic</h1>
   <br>
   <div style="text-decoration: none;">
-      <p class="github"><b>Progetti: </b><a href="https://github.com/Leoatomic" style="color: #90EE90;">GitHub</a> <a href="https://github.com/Leoatomic" class="fa fa-github" style="color: #90EE90;"></a></p>
-  
-      <p class="instagram"><b>Seguimi: </b><a href="https://www.instagram.com/Leoatomic" style="color: #C13584;">Instagram</a> <a href="https://www.instagram.com/Leoatomic" class="fa fa-instagram" style="color: #C13584;"></a></p>
-
-      <p class="telegram"><b>Redirect: </b><a href="http://t.me/leoatomicredirect" style="color: #0088cc;">Telegram</a> <a href="https://t.me/Leoatomic" class="fa fa-telegram" style="color: #0088cc;"></a></p>
+    <p class="github"><b>Progetti: </b><a href="https://github.com/Leoatomic" style="color: #90EE90;">GitHub</a> <a href="https://github.com/Leoatomic" class="fa fa-github" style="color: #90EE90;"></a></p>
+    <p class="instagram"><b>Seguimi: </b><a href="https://www.instagram.com/Leoatomic" style="color: #C13584;">Instagram</a> <a href="https://www.instagram.com/Leoatomic" class="fa fa-instagram" style="color: #C13584;"></a></p>
+    <p class="telegram"><b>Redirect: </b><a href="http://t.me/leoatomicredirect" style="color: #0088cc;">Telegram</a> <a href="https://t.me/Leoatomic" class="fa fa-telegram" style="color: #0088cc;"></a></p>
   </div>
   <br>
   <script>
@@ -191,16 +185,16 @@
       return i;
     }
   </script>
-
-<script src="https://cdn.jsdelivr.net/npm/particles.js@2/particles.min.js"></script>
-<script src="app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2/particles.min.js"></script>
+  <script src="app.js"></script>
 </body>
-<!--   .-  -. 
-      /(    )\  
-     |  -^^-  | 
-      \_ `' _/
-        \  )    
-         )/     
-        ('
-         \-->
+<!--   .-  -.
+        /(    )\
+        |  -^^-  |
+        \_ `' _/
+          \  )
+           )/
+          ('
+           \-->
+
 </html>
