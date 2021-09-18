@@ -1,0 +1,1 @@
+[![CodeFactor](https://www.codefactor.io/repository/github/leoatomic/leoatomic.github.io/badge?s=bdddc3fade89781b759dac4d63da7edca8964583)](https://www.codefactor.io/repository/github/leoatomic/leoatomic.github.io)
